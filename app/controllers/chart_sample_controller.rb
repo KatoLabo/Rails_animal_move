@@ -9,13 +9,22 @@ class ChartSampleController < ApplicationController
 
   def index
     gon.data = []
-    @messes = Mess.all
-    @mess_last = Mess.last
-    @i = @mess_last.id - 6
+    @today = Date.today
+    @day = @today - 6
     7.times do
-      data = Mess.find_by(id: @i).value
+      @messes = Messy.where(created_at: @day.all_day)
+      @c = @messes.count
+      @sum = 0
+      @messes.each do |m|
+        @sum += m.mess
+      end
+      if @c == 0 then
+        data = 0
+      else
+        data = @sum / @c
+        end
       gon.data << data
-      @i += 1
+      @day += 1
     end
   end
 end
