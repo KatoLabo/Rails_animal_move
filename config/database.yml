@@ -22,6 +22,7 @@ test:
 
 production:
   #半角スペース２個分の空白を開ける
+  url: <%= ENV['DATABASE_URL'] %>
   <<: *default
   adapter: postgresql
   encoding: unicode
