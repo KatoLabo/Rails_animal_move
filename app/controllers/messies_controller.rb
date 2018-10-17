@@ -1,4 +1,4 @@
-class MessiesController < ApplicationController
+class MessiesController < ApiController
   before_action :set_messy, only: [:show, :update, :destroy]
 
   # GET /messies
