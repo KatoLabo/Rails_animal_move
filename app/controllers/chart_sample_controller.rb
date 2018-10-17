@@ -16,7 +16,7 @@ class ChartSampleController < ApplicationController
       @c = @messes.count
       @sum = 0
       @messes.each do |m|
-        @sum += m.mess
+        @sum += to_i(m.mess)
       end
       if @c == 0 then
         data = 0
