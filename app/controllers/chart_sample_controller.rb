@@ -14,13 +14,14 @@ class ChartSampleController < ApplicationController
     7.times do
       @messes = Messy.where(created_at: @day.all_day)
       @c = @messes.count
-      @sum = 0
-      @messes.each do |m|
-        @sum += m.mess.to_i()
-      end
       if @c == 0 then
         data = 0
       else
+        @sum = 0
+        @messes.each do |m|
+          @add = m.mess.to_i
+          @sum += @add
+        end
         data = @sum / @c
         end
       gon.data << data
