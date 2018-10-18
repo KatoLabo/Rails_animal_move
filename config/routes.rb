@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'chart_sample/index'
+  get "chart" => "chart_sample#index"
 
 
   resources :messies
