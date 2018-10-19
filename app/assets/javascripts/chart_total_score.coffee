@@ -1,5 +1,5 @@
-window.draw_graph1 = ->
-  ctx = document.getElementById("myChart1").getContext('2d')
+window.draw_graph2 = ->
+  ctx = document.getElementById("myChart2").getContext('2d')
   barNum = 7
   labels = new Array(barNum)
   bgColors = new Array(barNum)
@@ -11,18 +11,18 @@ window.draw_graph1 = ->
       labels[i] = 6 - i + 'day ago'
     else
       labels[i] = 6 - i + 'days ago'
-    #bgColors[i] = 'rgba(75, 192, 192, 0.2)'
-    #bdColors[i] = 'rgba(75, 192, 192, 1)'
+  #bgColors[i] = 'rgba(75, 192, 192, 0.2)'
+  #bdColors[i] = 'rgba(75, 192, 192, 1)'
   myChart = new Chart(ctx, {
     type: 'line',
     data: {
       datasets: [{
-        label: '# Messy',
-        data: gon.data1,
-        #backgroundColor: bgColors,
-        #borderColor: bdColors,
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
-        borderColor: 'rgba(75, 192, 192, 1)',
+        label: '# Total level',
+        data: gon.data2,
+#backgroundColor: bgColors,
+#borderColor: bdColors,
+        backgroundColor: 'rgba(30, 30, 192, 0.2)',
+        borderColor: 'rgba(30, 30, 192, 1)',
         lineTension: 0,
         borderWidth: 1
       }],
