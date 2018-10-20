@@ -74,7 +74,7 @@
           <entry key="erb" value="533" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
-          <entry key="rb" value="2165" />
+          <entry key="rb" value="2172" />
           <entry key="scss" value="37" />
           <entry key="yml" value="32" />
         </counts>
@@ -85,13 +85,17 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="RHTML" value="533" />
-          <entry key="Ruby" value="3327" />
+          <entry key="Ruby" value="3334" />
           <entry key="SCSS" value="37" />
           <entry key="YAML" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.compare" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
@@ -124,19 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-305" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
           </provider>
         </entry>
       </file>
@@ -242,7 +237,18 @@
             <path>
               <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -432,12 +438,12 @@
       <workItem from="1539439806207" duration="8792000" />
       <workItem from="1539605750081" duration="15483000" />
       <workItem from="1539761693674" duration="17142000" />
-      <workItem from="1539865505372" duration="47151000" />
+      <workItem from="1539865505372" duration="47445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95162000" />
+    <option name="totallyTimeSpent" value="95456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
@@ -693,11 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -714,9 +715,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="323">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305" />
       </provider>
     </entry>
   </component>
