@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_15_094150) do
+ActiveRecord::Schema.define(version: 2018_10_20_170011) do
+
+  create_table "comments", force: :cascade do |t|
+    t.text "comment"
+    t.integer "m_total_score"
+    t.integer "m_mess"
+    t.integer "m_smell"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "data", force: :cascade do |t|
     t.integer "value"
@@ -31,6 +40,7 @@ ActiveRecord::Schema.define(version: 2018_10_15_094150) do
     t.string "mess"
     t.string "smell"
     t.string "user_id"
+    t.string "comment_name"
   end
 
   create_table "users", force: :cascade do |t|
