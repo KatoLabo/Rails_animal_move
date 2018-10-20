@@ -1,22 +1,38 @@
-require 'net/http'
-require 'openssl'
+
+
 
 class MessiesController < ApiController
   before_action :set_messy, only: [:show, :update, :destroy]
 
+  def post_ras
+    render :action => post_to_ras
+  end
+
+  # POST /post_to_ras
   def post_to_ras
+    require "net/http"
+    require "uri"
 
-      uri = URI.parse("http://382f1e6f.ngrok.io/")
-      http = Net::HTTP.new(uri.host, uri.port)
-      http.ssl_version = :SSLv3
+    uri = URI.parse("http://7491c54a.ngrok.io")
 
-      http.use_ssl = true
-      http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+    http = Net::HTTP.new(uri.host, uri.port)
 
-      req = Net::HTTP::Post.new(uri.path)
-      req.set_form_data({ "hoge" : 1, "bar" : "bar" })
+    http.ssl_version = :SSLv3
 
-      @res = http.request(req)
+    http.use_ssl = true
+    http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+
+    request = Net::HTTP::Post.new(uri.request_uri)
+    request.set_form_data({"hoge" => "1", "bar" => "bar"})
+
+    @response = http.request(request)
+  end
+
+
+  # GET /messies/latest
+  def latest
+    @latest_messy = Messy.last
+    render json: @latest_messy
   end
 
 
@@ -70,12 +86,12 @@ class MessiesController < ApiController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_messy
-      @messy = Messy.find(params[:id])
+      @messy = Messy.find_by(id: params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def messy_params
-      params.permit(:total_score, :mess, :smell, :user_id)
-      # params.fetch(:messy, {}).permit(:total_score, :mess, :smell, :user_id)
+      #params.permit(:total_score, :mess, :smell, :user_id)
+      params.fetch(:messy, {}).permit(:total_score, :mess, :smell, :user_id)
     end
 end
