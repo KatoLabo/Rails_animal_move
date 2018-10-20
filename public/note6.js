@@ -18,8 +18,16 @@ var sW,sH,s;
 sW = window.innerWidth  - image_width;
 sH = window.innerHeight - image_height;
 
+<<<<<<< HEAD
 console.log(sW)
 console.log(sH)
+=======
+
+console.log("Hello")
+console.log(sW)
+console.log(sH)
+console.log(sH)
+>>>>>>> origin2/master
 
 
 
@@ -39,6 +47,25 @@ var bo_arr = [];
 
 var ID_arr = ["FlyImg1", "FlyImg2", "FlyImg3"];
 
+<<<<<<< HEAD
+=======
+
+function scale(size, img_name) {
+  width = 400 * size;
+  height = 300 * size;
+  document.img_name.width = width;
+  document.img_name.height = height;
+  console.log(width)
+  console.log(height)
+}
+
+scale(0.1, "image1")
+
+// var targetImg = document.getElementById(ID_arr[1]);
+// targetImg.width = 600;
+// targetImg.height = 20;
+
+>>>>>>> origin2/master
 n = 0;
 while (n < ID_arr.length) {
   Ns_arr.push(Ns);
@@ -102,6 +129,7 @@ function Move(id){
 
 
 
+<<<<<<< HEAD
 function Check(){
    if(Ie || Ns){setInterval("Main()",200)}
 }
@@ -111,6 +139,18 @@ function Main(){
   Move(0);
   Move(1);
   Move(2);
+=======
+// function Check(){
+//    if(Ie || Ns){setInterval("Main()",200)}
+// }
+
+
+function Main(){
+  // Move(0);
+  // Move(1);
+  // Move(2);
+  // console.log("Hello")
+>>>>>>> origin2/master
 }
 
 

@@ -1,6 +1,5 @@
 class ChartSampleController < ApplicationController
 
-
   def index
     gon.data1 = []
     gon.data2 = []

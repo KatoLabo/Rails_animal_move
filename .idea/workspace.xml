@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="cfbd2e9b-c937-4bbf-a01a-02c7a89516d3" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="cfbd2e9b-c937-4bbf-a01a-02c7a89516d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/messies_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/messies_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/chart_sample/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/chart_sample/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
+>>>>>>> origin2/master
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -49,9 +58,15 @@
           <entry key="jbuilder" value="4" />
           <entry key="js" value="3" />
           <entry key="json" value="3" />
+<<<<<<< HEAD
           <entry key="rb" value="49" />
           <entry key="scss" value="5" />
           <entry key="yml" value="5" />
+=======
+          <entry key="rb" value="40" />
+          <entry key="scss" value="5" />
+          <entry key="yml" value="3" />
+>>>>>>> origin2/master
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -61,20 +76,34 @@
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="3" />
           <entry key="RHTML" value="19" />
+<<<<<<< HEAD
           <entry key="Ruby" value="57" />
           <entry key="SCSS" value="5" />
           <entry key="YAML" value="5" />
+=======
+          <entry key="Ruby" value="48" />
+          <entry key="SCSS" value="5" />
+          <entry key="YAML" value="3" />
+>>>>>>> origin2/master
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="6" />
+<<<<<<< HEAD
           <entry key="Ruby Console" value="1156" />
+=======
+          <entry key="Ruby Console" value="1093" />
+>>>>>>> origin2/master
           <entry key="coffee" value="695" />
           <entry key="erb" value="533" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
+<<<<<<< HEAD
           <entry key="rb" value="2172" />
+=======
+          <entry key="rb" value="1524" />
+>>>>>>> origin2/master
           <entry key="scss" value="37" />
           <entry key="yml" value="32" />
         </counts>
@@ -85,27 +114,43 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="RHTML" value="533" />
+<<<<<<< HEAD
           <entry key="Ruby" value="3334" />
+=======
+          <entry key="Ruby" value="2623" />
+>>>>>>> origin2/master
           <entry key="SCSS" value="37" />
           <entry key="YAML" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
+<<<<<<< HEAD
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.compare" value="1" />
         </counts>
       </usages-collector>
+=======
+      <usages-collector id="statistics.vcs.git.usages" />
+>>>>>>> origin2/master
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/chart_sample_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-152">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/chart_sample_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+>>>>>>> origin2/master
             </state>
           </provider>
         </entry>
@@ -113,25 +158,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/messies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-51">
               <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+=======
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+>>>>>>> origin2/master
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1122">
               <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/views/chart_sample/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+>>>>>>> origin2/master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-305" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1041">
+              <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+            </state>
+>>>>>>> origin2/master
           </provider>
         </entry>
       </file>
@@ -157,17 +232,30 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/ap_icontroller_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api_controller.rb" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/assets/javascripts/chart_sample.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/chart_score.coffee" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+=======
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/chart_sample.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/chart_score.coffee" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/chart_sample_controller.rb" />
+>>>>>>> origin2/master
         <option value="$PROJECT_DIR$/app/assets/javascripts/chart_total_score.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/chart_mess.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/chart_sample.scss" />
         <option value="$PROJECT_DIR$/app/views/chart_sample/index.html.erb" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/controllers/chart_sample_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/messies_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+=======
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/messies_controller.rb" />
+>>>>>>> origin2/master
       </list>
     </option>
   </component>
@@ -192,9 +280,15 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
+=======
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="1211" />
+>>>>>>> origin2/master
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -232,6 +326,29 @@
               <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+>>>>>>> origin2/master
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,12 +360,34 @@
             <path>
               <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="db" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="chart_sample" type="462c0819:PsiDirectoryNode" />
+>>>>>>> origin2/master
             </path>
             <path>
               <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="public" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chart_js_sample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chart_js_sample" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+>>>>>>> origin2/master
             </path>
           </expand>
           <select />
@@ -438,11 +577,16 @@
       <workItem from="1539439806207" duration="8792000" />
       <workItem from="1539605750081" duration="15483000" />
       <workItem from="1539761693674" duration="17142000" />
+<<<<<<< HEAD
       <workItem from="1539865505372" duration="47445000" />
+=======
+      <workItem from="1539865505372" duration="28005000" />
+>>>>>>> origin2/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="95456000" />
   </component>
   <component name="ToolWindowManager">
@@ -450,6 +594,15 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34135666" />
+=======
+    <option name="totallyTimeSpent" value="76016000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="633" y="0" width="653" height="807" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34401348" />
+>>>>>>> origin2/master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -461,7 +614,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.46008402" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.46108663" />
+>>>>>>> origin2/master
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32983193" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010941" side_tool="true" weight="0.32983193" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32983193" />
@@ -471,19 +628,31 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32822758" />
     </layout>
     <layout-to-restore>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3424191" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22319475" />
+>>>>>>> origin2/master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" weight="0.46638656" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" weight="0.4665676" />
+>>>>>>> origin2/master
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.46062407" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32983193" />
+>>>>>>> origin2/master
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32983193" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010941" side_tool="true" weight="0.32983193" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32983193" />
@@ -539,6 +708,12 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20181015094150_create_messes.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/models/datum.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> origin2/master
     <entry file="file://$PROJECT_DIR$/app/models/mess.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -574,6 +749,24 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/models/messy.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175" />
+      </provider>
+    </entry>
+>>>>>>> origin2/master
     <entry file="file://$PROJECT_DIR$/app/controllers/app_controller_controller.rb" />
     <entry file="file://$PROJECT_DIR$/app/controllers/ap_icontroller_controller.rb" />
     <entry file="file://$PROJECT_DIR$/app/views/messies/_messy.json.jbuilder">
@@ -662,6 +855,7 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app_controller.coffee">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="849">
@@ -703,11 +897,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1041">
+          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/chart_sample/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+>>>>>>> origin2/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/messies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-51">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
         </state>
@@ -725,5 +947,19 @@
         <state relative-caret-position="-305" />
       </provider>
     </entry>
+=======
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/chart_sample_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> origin2/master
   </component>
 </project>

@@ -15,24 +15,41 @@ body {
 }
 
 /* Desktops */
+<<<<<<< HEAD
 @media (min-width: 992px) and (max-width: 1199px) {
   IMG{width:  400px;
       height: 400px;}
 }
 
 /* Tablets */
+=======
+/* Tablets */
+/* Phones */
+
+/*@media (min-width: 992px) and (max-width: 1199px) {
+  IMG{width:  400px;
+      height: 400px;}
+}
+>>>>>>> origin2/master
 @media (min-width: 768px) and (max-width: 991px) {
   IMG{width:  200px;
       height: 200px;}
 }
+<<<<<<< HEAD
 
 
 /* Phones */
+=======
+>>>>>>> origin2/master
 @media (max-width: 767px) {
     IMG{width:  50px;
         height: 50px;}
 }
+<<<<<<< HEAD
 
+=======
+*/
+>>>>>>> origin2/master
 
  A:link    {color:#00bbff;}
  A:active  {color:#00ffbb;}
