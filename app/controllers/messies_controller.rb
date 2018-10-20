@@ -1,5 +1,24 @@
+require 'net/http'
+require 'openssl'
+
 class MessiesController < ApiController
   before_action :set_messy, only: [:show, :update, :destroy]
+
+  def post_to_ras
+
+      uri = URI.parse("http://382f1e6f.ngrok.io/")
+      http = Net::HTTP.new(uri.host, uri.port)
+      http.ssl_version = :SSLv3
+
+      http.use_ssl = true
+      http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+
+      req = Net::HTTP::Post.new(uri.path)
+      req.set_form_data({ "hoge" : 1, "bar" : "bar" })
+
+      @res = http.request(req)
+  end
+
 
   # GET /messies
   # GET /messies.json
