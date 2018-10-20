@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
 
 
-  get "/" => "users#top"
+  get "/" => "messies#top"
   get "users/latest" => "users#latest"
 
   resources :users
