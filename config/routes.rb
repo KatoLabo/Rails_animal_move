@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   get "chart" => "chart_sample#index"
 
 
-  get "comments" => "messies#all_comment"
   get "messies/latest" => "messies#latest"
   resources :messies
 
