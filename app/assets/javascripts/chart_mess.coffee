@@ -22,7 +22,7 @@ window.draw_graph1 = ->
         #backgroundColor: bgColors,
         #borderColor: bdColors,
         backgroundColor: 'rgba(75, 62, 192, 0.2)',
-        borderColor: 'rgba(75, 192, 192, 1)',
+        borderColor: 'rgba(75, 62, 192, 1)',
         lineTension: 0,
         borderWidth: 1
       },{
@@ -31,7 +31,7 @@ window.draw_graph1 = ->
 #backgroundColor: bgColors,
 #borderColor: bdColors,
         backgroundColor: 'rgba(75, 192, 32, 0.2)',
-        borderColor: 'rgba(75, 192, 192, 1)',
+        borderColor: 'rgba(75, 192, 32, 1)',
         lineTension: 0,
         borderWidth: 1
       },{
