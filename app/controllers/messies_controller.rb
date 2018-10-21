@@ -3,6 +3,11 @@ class MessiesController < ApiController
   before_action :set_messy, only: [:show, :update, :destroy]
 
 
+  def all_comment
+    @comments =Comment.all
+    render json: @comments
+  end
+
   # GET /messies/latest
   def latest
     @comment_all = Comment.all
