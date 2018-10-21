@@ -5,12 +5,12 @@ class MessiesController < ApiController
 
   # GET /messies/latest
   def latest
-    #@comment_all = Comment.all
+    @comment_all = Comment.all
     @latest_messy = Messy.last
-    #@score = @latest_messy.total_score.to_i / 20
-    #@comments = @comment_all.where(m_total_score: @score)
-    #@latest_messy.comment_name = @comments.sample.comment
-    #@latest_messy.save
+    @score = @latest_messy.total_score.to_i / 20
+    @comments = @comment_all.where(m_total_score: @score)
+    @latest_messy.comment_name = @comments.sample.comment
+    @latest_messy.save
     render json: @latest_messy
   end
 
