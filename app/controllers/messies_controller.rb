@@ -78,6 +78,6 @@ class MessiesController < ApiController
     # Never trust parameters from the scary internet, only allow the white list through.
     def messy_params
       #params.permit(:total_score, :mess, :smell, :user_id)
-      params.fetch(:messy, {}).permit(:total_score, :mess, :smell, :user_id)
+      params.fetch(:messy, {}).permit(:total_score, :mess, :smell, :dust :user_id)
     end
 end

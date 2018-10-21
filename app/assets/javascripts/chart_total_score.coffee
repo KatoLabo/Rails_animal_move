@@ -18,7 +18,7 @@ window.draw_graph2 = ->
     data: {
       datasets: [{
         label: '# Total level',
-        data: gon.data2,
+        data: gon.data4,
 #backgroundColor: bgColors,
 #borderColor: bdColors,
         backgroundColor: 'rgba(30, 30, 192, 0.2)',

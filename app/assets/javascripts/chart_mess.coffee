@@ -17,10 +17,28 @@ window.draw_graph1 = ->
     type: 'line',
     data: {
       datasets: [{
-        label: '# Messy',
+        label: '# Mess',
         data: gon.data1,
         #backgroundColor: bgColors,
         #borderColor: bdColors,
+        backgroundColor: 'rgba(75, 62, 192, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        lineTension: 0,
+        borderWidth: 1
+      },{
+        label: '# Smell',
+        data: gon.data2,
+#backgroundColor: bgColors,
+#borderColor: bdColors,
+        backgroundColor: 'rgba(75, 192, 32, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        lineTension: 0,
+        borderWidth: 1
+      },{
+        label: '# Dust',
+        data: gon.data3,
+#backgroundColor: bgColors,
+#borderColor: bdColors,
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
         borderColor: 'rgba(75, 192, 192, 1)',
         lineTension: 0,
