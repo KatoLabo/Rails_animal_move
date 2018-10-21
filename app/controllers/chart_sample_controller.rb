@@ -5,6 +5,7 @@ class ChartSampleController < ApplicationController
     gon.data2 = []
     gon.data3 = []
     gon.data4 = []
+
     @today = Date.today
     @day = @today - 6
     7.times do
